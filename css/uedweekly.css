@@ -1,0 +1,264 @@
+/* 初学者，请亲喷 */
+
+
+body {
+	background: #F2F2F2;
+	font-family: PingFangSC-light,HelveticaNeue, LucidaGrande, sans-serif;
+}
+
+
+.box {
+	width: 460px;
+	height: 480px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.10), 0px 3px 6px 0px rgba(0,0,0,0.10);
+	background: #ffffff;
+	margin-top: 100px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading1 {
+	padding-top: 28px;
+	font-family: PingFangSC-Ultralight;
+	font-size: 46px;
+	color: #FD6868;
+}
+
+.heading2 {
+	padding-top: 2px;
+	font-size: 24px;
+	font-family: PingFangSC-Regular;
+	color: #FD6868;
+}
+
+.msbox {
+	padding-top: 28px;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.mscontent {
+	font-size: 16px;
+	color: #666666;
+	
+}
+
+.subscribe {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text],
+input[type=email]{   
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+}
+
+.subscribe_input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    padding: 12px 16px;
+    line-height: 21px;
+    color: #333333;
+    outline: none;
+    margin-top: 16px;
+}
+
+.subscribe_input:hover,.subscribe_input:focus,.subscribe_input:hover:focus {
+    border-color: #FD6868;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+::-webkit-input-placeholder {
+   color: #CCCCCC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CCCCCC;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CCCCCC;
+}
+
+:-ms-input-placeholder {  
+   color: #CCCCCC; 
+}
+
+.subscribe_btn {
+	margin-top: 18px;
+	outline: none;
+	font-size: 16px;
+	width: 100%;
+	height: 48px;
+	background: #FD6868;
+	color: #ffffff;
+	border-radius: 4px;
+	border: none;
+	-webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.subscribe_btn:hover,.subscribe_btn:active,.subscribe_btn:active:focus,.subscribe_btn:active:hover {
+    background-color: #EA6464;
+    color: #ffffff;
+    outline: none;
+}
+
+
+.website,.website {
+	margin-top: 26px;
+}
+.website,.website p{
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.website,.website a {
+	color: #CCCCCC;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+@media (max-width: 492px) {
+	.box {
+	width: 100%;
+	height: 460px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.10), 0px 3px 6px 0px rgba(0,0,0,0.10);
+	background: #ffffff;
+	margin-top: 100px;
+	padding-left: 18px;
+	padding-right: 18px;
+	text-align: center;
+}
+
+.heading1 {
+	padding-top: 28px;
+	font-family: PingFangSC-Ultralight;
+	font-size: 46px;
+	color: #FD6868;
+}
+
+.heading2 {
+	padding-top: 2px;
+	font-size: 24px;
+	font-family: PingFangSC-Regular;
+	color: #FD6868;
+}
+
+.msbox {
+	padding-top: 28px;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.mscontent {
+	font-size: 16px;
+	color: #666666;
+	
+}
+
+.subscribe {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text],
+input[type=email]{   
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+}
+
+.subscribe_input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #C8C8C8;
+    border-radius: 4px;
+    padding: 12px 16px;
+    line-height: 21px;
+    color: #333333;
+    outline: none;
+    margin-top: 16px;
+}
+
+.subscribe_input:hover,.subscribe_input:focus,.subscribe_input:hover:focus {
+    border-color: #FD6868;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+::-webkit-input-placeholder {
+   color: #CCCCCC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CCCCCC;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CCCCCC;
+}
+
+:-ms-input-placeholder {  
+   color: #CCCCCC; 
+}
+
+.subscribe_btn {
+	margin-top: 18px;
+	outline: none;
+	font-size: 16px;
+	width: 100%;
+	height: 48px;
+	background: #FD6868;
+	color: #ffffff;
+	border-radius: 4px;
+	border: none;
+	-webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.subscribe_btn:hover,.subscribe_btn:active,.subscribe_btn:active:focus,.subscribe_btn:active:hover {
+    background-color: #EA6464;
+    color: #ffffff;
+    outline: none;
+}
+
+.website,.website p{
+	font-size: 14px;
+	color: #CCCCCC;
+}
+.website,.website a {
+	color: #CCCCCC;
+	font-size: 16px;
+	margin-top: 18px;
+	letter-spacing: 0.5px;
+}
+}
